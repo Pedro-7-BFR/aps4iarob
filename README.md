@@ -74,7 +74,7 @@ A P
 ```
 
 Agente Inicia: (0, 0) | Pacote: (0, 1) | Destino: (1, 1)
-Solucao:  ; direita ; pegar ; baixo ; entregar
+## Solucao:  ; direita ; pegar ; baixo ; entregar
 Custo total: 4
 Nodos expandidos: 4
 
@@ -91,7 +91,7 @@ A = agente | P = pacote | X = destino | # = obstáculo | $ = pedágio | . = livr
 ```
 
 Agente Inicia: (0, 2) | Pacote: (1, 2) | Destino: (2, 1)
-Solucao:  ; baixo ; pegar ; esquerda ; baixo ; entregar
+## Solucao:  ; baixo ; pegar ; esquerda ; baixo ; entregar
 Custo total: 5
 Nodos expandidos: 6
 
@@ -108,7 +108,7 @@ A . # .
 ```
 
 Agente Inicia: (2, 0) | Pacote: (3, 2) | Destino: (0, 0)
-Solucao:  ; direita ; baixo ; direita ; pegar ; esquerda ; esquerda ; cima ; cima ; cima ; entregar
+## Solucao:  ; direita ; baixo ; direita ; pegar ; esquerda ; esquerda ; cima ; cima ; cima ; entregar
 Custo total: 10
 Nodos expandidos: 12
 
@@ -126,7 +126,7 @@ X . . . .
 ```
 
 Agente Inicia: (3, 4) | Pacote: (0, 4) | Destino: (4, 0)
-Solucao:  ; cima ; cima ; cima ; pegar ; baixo ; baixo ; esquerda ; baixo ; baixo ; esquerda ; esquerda ; esquerda ; entregar
+## Solucao:  ; cima ; cima ; cima ; pegar ; baixo ; baixo ; esquerda ; baixo ; baixo ; esquerda ; esquerda ; esquerda ; entregar
 Custo total: 13
 Nodos expandidos: 21
 
@@ -145,7 +145,7 @@ X # . . . .
 ```
 
 Agente Inicia: (2, 0) | Pacote: (0, 2) | Destino: (5, 0)
-Nao existe solucao para este mapa.
+## Não existe solução para este mapa.
 
 ## N = 7
 
@@ -163,7 +163,7 @@ A # . . . . #
 ```
 
 Agente Inicia: (6, 0) | Pacote: (3, 6) | Destino: (4, 2)
-Solucao:  ; cima ; direita ; direita ; cima ; direita ; direita ; cima ; direita ; direita ; pegar ; esquerda ; esquerda ; esquerda ; esquerda ; baixo ; entregar
+## Solucao:  ; cima ; direita ; direita ; cima ; direita ; direita ; cima ; direita ; direita ; pegar ; esquerda ; esquerda ; esquerda ; esquerda ; baixo ; entregar
 Custo total: 16
 Nodos expandidos: 23
 
@@ -184,7 +184,7 @@ $ . . . . . . .
 ```
 
 Agente Inicia: (2, 1) | Pacote: (4, 7) | Destino: (0, 5)
-Solucao:  ; direita ; direita ; direita ; direita ; direita ; direita ; baixo ; baixo ; pegar ; esquerda ; cima ; esquerda ; cima ; cima ; cima ; entregar
+## Solucao:  ; direita ; direita ; direita ; direita ; direita ; direita ; baixo ; baixo ; pegar ; esquerda ; cima ; esquerda ; cima ; cima ; cima ; entregar
 Custo total: 16
 Nodos expandidos: 26
 
@@ -205,7 +205,7 @@ $ . . X . . . . .
 ```
 
 Agente Inicia: (4, 1) | Pacote: (7, 2) | Destino: (3, 3)
-Solucao:  ; direita ; baixo ; baixo ; baixo ; pegar ; direita ; cima ; cima ; cima ; cima ; entregar
+## Solucao:  ; direita ; baixo ; baixo ; baixo ; pegar ; direita ; cima ; cima ; cima ; cima ; entregar
 Custo total: 11
 Nodos expandidos: 13
 
@@ -228,6 +228,6 @@ P . . # # # . # . .
 ```
 
 Agente Inicia: (5, 5) | Pacote: (9, 0) | Destino: (1, 8)
-Solucao:  ; cima ; esquerda ; esquerda ; baixo ; baixo ; baixo ; esquerda ; baixo ; esquerda ; baixo ; esquerda ; pegar ; direita ; direita ; cima ; cima ; direita ; cima ; cima ; cima ; cima ; cima ; direita ; direita ; cima ; direita; direita ; direita ; entregar
+## Solucao:  ; cima ; esquerda ; esquerda ; baixo ; baixo ; baixo ; esquerda ; baixo ; esquerda ; baixo ; esquerda ; pegar ; direita ; direita ; cima ; cima ; direita ; cima ; cima ; cima ; cima ; cima ; direita ; direita ; cima ; direita; direita ; direita ; entregar
 Custo total: 35
 Nodos expandidos: 106
