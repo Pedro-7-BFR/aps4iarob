@@ -4,6 +4,7 @@ from tkinter import messagebox
 from aigyminsper.search.search_algorithms import AEstrela
 from Entregador import Entregador
 from gerador import gerar_mundo, mostrar_mapa
+from visualizacao import visualizar
 
 
 def executar():
@@ -31,6 +32,7 @@ def executar():
         print('Custo total:', resultado.g)
         print('Nodos expandidos:', Entregador.conta_nodos, flush=True)
         messagebox.showinfo('Resultado', f'Solução encontrada! Custo: {resultado.g}\nVeja as ações no terminal.\nCaso queira encerrar o programa feche a janela Entregador')
+        visualizar(mapa, agente, pacote, destino, resultado.show_path())
 
 
 janela = tk.Tk()
